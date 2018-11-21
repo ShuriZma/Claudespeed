@@ -167,6 +167,13 @@ p {
 
 }
 
+.footer-link_ru {
+	font-weight: bolder;
+	color:darkslategray;
+    padding-right: 4%;
+
+}
+
 .hypesquad {
 	width: 100%;
 	color: darkslategray;
