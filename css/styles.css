@@ -194,3 +194,43 @@ p {
 .hinweis {
     font-size: .75em;
 }
+
+.twitch_clips {
+    display: flex;
+}
+
+.clip_left {
+    margin: 0 .5em 1em 0;
+}
+
+.clip_right{
+    margin: 0 .5em 1em 0;
+}
+
+@media screen and (max-width: 1900px) {
+    .twitch_clips {
+            flex-flow: column nowrap;
+            margin-left: 23%;
+            width:auto;
+        }
+        .clip_left{
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+        .clip_right{
+            margin-left: 0em;
+            margin-right: 0em;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .twitch_clips {
+            flex-flow: column nowrap;
+            margin-left: 0;
+            width:auto;
+    }
+    .vjs-default-skin{
+    max-width: 100%;
+    max-height: 100%;
+    }
+}
