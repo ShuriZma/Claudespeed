@@ -198,11 +198,11 @@ p {
 }
 
 .clip_left {
-    margin: 0 .5em 1em 0;
+    margin: 0 .5em 1em 10%;
 }
 
 .clip_right{
-    margin: 0 .5em 1em 0;
+    margin: 0 .5em 1em 10%;
 }
 
 @media screen and (max-width: 1900px) {
