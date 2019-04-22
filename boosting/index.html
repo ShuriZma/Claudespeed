@@ -6,7 +6,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ClaudeSpeed: Team</title>
+        <title>ClaudeSpeed: Boosting</title>
         <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
@@ -21,6 +21,8 @@
         <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
         <link rel="manifest" href="../js/manifest.json">
+        <link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+        <script src="https://vjs.zencdn.net/4.12/video.js"></script>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
@@ -56,7 +58,7 @@
                         <ul>
                             <li><a class="a-index fas" href="index.html">Boosting</a></li>
                             <li><a class="a-index fas" href="../gilde/index.html">Gilde</a></li>
-                            <li><a class="a-index fas" href="index.html">Team</a></li>
+                            <li><a class="a-index fas" href="../team/index.html">Team</a></li>
                         </ul>
 
 					</li>
@@ -74,6 +76,90 @@
 			</nav>
 
 			<div id="content" class="bg-white">
+                <h1>Boosting-Team im Aufbau</h1>
+                <p>Du hast Lust ein wenig Gold nebenbei zu verdienen, hast gutes Gear und möglichs viel Zeit?</p>
+                <p>Das ist genau was wir suchen!</p>
+                <p>Wir bauen aktuell ein Mythic+ Boosting Team auf und brauchen noch Unterstützung!</p>
+                <p>Wenn du Interesse hast, dann füll doch einfach das Kontakt-Formular aus.</p>
+                <p>Vergiss nicht in deine Bewerbung eine nette kleine Begrüßung zu schreiben!</p>
+                <br>
+                <form method="post" action="../../php/form-mailer.php">
+                    <p>
+                        <label>Name
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="Name" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>E-Mail
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="email" name="Mail" required>
+                        </label>
+                    </p>
+                     <p>
+                        <label>Battle-Tag
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="btag" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Charakter
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="character" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Realm
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="realm" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Klasse/Specc
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="class" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Bereitschaft
+                            <span class="red-link">*</span>:
+                            <p class="hinweis">Wann hast du Zeit|Uhrzeiten etc.</p>
+
+                            <input type="text" name="time" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Höchster Intime-Key
+                            <span class="red-link">*</span>:
+                            <br>
+                            <input type="text" name="key" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Bewerbung
+                            <span class="red-link">*</span>
+                            <br>
+                            <textarea name="Nachricht" cols="50" rows="8" required></textarea>
+                        </label>
+                    </p>
+                    <label>
+                        <input type="checkbox" name="privacyPolicyConfirmed" value="1" required>Ich habe die
+                        <a href="../datenschutz/index.html" class="red-link">Datenschutzerklärung</a> gelesen und stimme dieser zu.
+                        <span class="red-link">*</span>
+                    </label>
+                    <br>
+                    <input type="submit" value="Senden">
+                </form>
+                <br>
+                <p class="hinweis">
+                    <span class="red-link">*</span> Pflichfeld
+                </p>
 			</div>
 			<div >
                 <a class="a-index fas footer-link" href="../datenschutz/index.html">Datenschutzerklärung</a>
