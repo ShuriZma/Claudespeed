@@ -1,80 +1,37 @@
-<!doctype html>
-<html lang="ru">
-    <head>
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <title>ClaudeSpeed: бригада</title>
-        <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="../js/manifest.json">
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-		<link rel="stylesheet" href="../css/styles.css">
-    </head>
+<?php
 
-    <body>
-        <div class="wrapper">
+$lang = array(
+    "claudespeed" => "Claudespeed",
+    "footer-link1" => "политика конфиденциальности",
+    "footer-link2" => "официальное уведомление",
+    "footer-copyright" => "&copy;2018-" . date("Y") . "авторское право ShuriZma, все права защищены.",
+    "footer-discord" => "Присоединитесь к нашему Discord",
+    "header" => "главная страница",
+    "navbar-home" => "домашняя страница",
+    "navbar-clips" => "видео",
+    "home" => "ClaudeSpeed: главная страница",
+    "home-title" => "домашняя страница",
+    "clips" => "ClaudeSpeed: видео",
+    "clips-title" => "видео",
+    "clips-nojs" => "Чтобы смотреть это видео, пожалуйста, активируйте JavaScript и рассмотрите модернизацию до веб-браузера, который<a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\">поддерживает видео HTML5</a>",
+    "clip1" => "Claudespeed: видео 1",
+    "clip1-p1" => "Это видео для тестирования целей только.<br>
+                            Текст, который Вы читаете здесь, будет описанием однажды.",
+    "clip2" => "Claudespeed: видео 2",
+    "clip2-p1" => "Это видео для тестирования целей только.<br>
+                            Текст, который Вы читаете здесь, будет описанием однажды.",
+    "impressum" => "Claudespeed: официальное уведомление",
+    "impressum-title" => "официальное уведомление",
+    "impressum-content" => "<h2>Информация согласно &sect;5 TMG</h2>
+                <p>Markus Heß<br>
+                    An der Wuhlheide 148<br>
+                    12459 Berlin</p>
 
-			<header id="header" class="bg-white">
-				<div class="header-bg">
-                    <a href="../index_ru.html">
-                        <div class="logo-wrapper bg-white">
-
-                            <img class="logo-img" src="../img/Logo.png">
-
-                            <div class="logo-title">
-                                <h2>главная страница</h2>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-			</header>
-
-			<nav class="nav-wrapper bg-white">
-
-				<ul>
-					<li><a class="a-index fas" href="../index_ru.html">домашняя страница</a></li>
-					<li>
-                        <a class="a-index fas">информация</a>
-
-                        <ul>
-                            <li><a class="a-index fas" href="../boosting/index_ru.html">повышение</a></li>
-                            <li><a class="a-index fas" href="../gilde/index_ru.html">гильдия</a></li>
-                            <li><a class="a-index fas" href="../team/index_ru.html">бригада</a></li>
-                        </ul>
-
-					</li>
-					<li><a class="a-index fas" href="../clips/index_ru.html">видео</a></li>
-                    <li>
-                        <a class="a-index fas"><img src="../img/lang/ru_flagge.jpg"/></a>
-
-                        <ul>
-                            <li><a class="a-index fas"  href="index.html"><img src="../img/lang/de_flagge.png"/></a></li>
-                            <li><a class="a-index fas"  href="index_en.html"><img src="../img/lang/en_flagge.svg.png"/></a></li>
-                        </ul>
-                    </li>
-				</ul>
-
-			</nav>
-
-			<div id="content" class="bg-white">
-                <h1>Декларация защиты данных </h1>
+                <h2>контакт</h2>
+                <p>телефон: +49 (0) 176 21 40 88 50<br>
+                    Электронная почта: shurizma@shurizma.de</p>",
+    "datenschutz-title" => "Claudespeed: бригада",
+    "datenschutz" => '<h1>Декларация защиты данных </h1>
                 <h2>1. защита данных сразу</h2>
                 <h3>общая информация</h3>
                 <p>Следующая информация предоставляет простой обзор того, что происходит с Вашей личной информацией, когда Вы посещаете наш веб-сайт. Персональные данные - все данные, с которыми Вы можете быть лично отождествлены. Вы можете найти подробную информацию на предмет защиты данных в нашей декларации защиты данных перечисленной в соответствии с этим текстом.</p>
@@ -151,19 +108,6 @@
                 <p>Эта страница использует так называемые веб-шрифты, обеспеченные Google для однородного показа шрифтов. Когда Вы откроете страницу, Ваш браузер припрячет необходимые веб-шрифты про запас в Вашем браузере, чтобы показать текст и шрифты правильно.</p>
                 <p>С этой целью браузер, который Вы используете, должен установить связь с серверами Google. Это позволит Google знать, что Ваш IP-адрес использовался, чтобы получить доступ к нашему веб-сайту. Использование Google Web Fonts в интересах униформы и привлекательного представления наших онлайн-сервисов. Это составляет законный интерес в значении Параграфа Статьи 6. 1 освещенное. f DSGVO.</p>
                 <p>Если Ваш браузер не поддержит веб-Шрифты, шрифт по умолчанию будет использоваться Вашим компьютером.</p>
-                <p>Дополнительная информация о Google Web Fonts может быть найдена в <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> и в политике конфиденциальности Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a>.</p>
-			</div>
-			<div >
-                <a class="a-index fas footer-link_ru" href="index_ru.html">политика конфиденциальности</a>
-                <a class="a-index fas footer-link_ru" href="../impressum/index_ru.html">официальное уведомление</a>
-                <p class="footer">&copy;2018-2019 авторское право ShuriZma, все права защищены.</p>
-				<div class="container-hypesquad">
-                    <a href="https://discord.claudespeed.de">
-                    <img class="hypesquad" src="../img/hypesquad-white.png">
-                        <p class="hypesquad">Присоединитесь к нашему Discord</p>
-                    </a>
-				</div>
-            </div>
-		</div>
-    </body>
-</html>
+                <p>Дополнительная информация о Google Web Fonts может быть найдена в <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> и в политике конфиденциальности Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a>.</p>'
+);
+?>
