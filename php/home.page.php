@@ -3,5 +3,5 @@
 </head>
 
 <div id="content" class="bg-white">
-    <?php echo $lang['home-title'] ?>
+    <h1><?php echo $lang['home-title'] ?></h1>
 </div>

@@ -6,7 +6,7 @@
                 <img class="logo-img" src="img/Logo.png">
 
                 <div class="logo-title">
-                    <h2><?php echo $lang['header'] ?></h2>
+                    <h2><?php echo $header_lang['header'] ?></h2>
                 </div>
 
             </div>

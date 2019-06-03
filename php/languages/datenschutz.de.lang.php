@@ -1,35 +1,6 @@
 <?php
 
 $lang = array(
-    "claudespeed" => "Claudespeed",
-    "footer-link1" => "Datenschutzerklärung",
-    "footer-link2" => "Impressum",
-    "footer-copyright" => "&copy;2018-" . date("Y") . "Copyright ShuriZma, All Rights Reserved.",
-    "footer-discord" => "Join our Discord",
-    "header" => "Offizielle Homepage",
-    "navbar-home" => "Startseite",
-    "navbar-clips" => "Clips",
-    "home" => "Claudespeed: Startseite",
-    "home-title" => "Startseite",
-    "clips" => "ClaudeSpeed: Clips",
-    "clips-title" => "Clips",
-    "clips-nojs" => "Um dieses Video anzuzeigen, aktivieren Sie bitte JavaScript und erwägen Sie ein Upgrade auf einen Webbrowser, der <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\"> HTML5-Video unterstützt.</a>",
-    "clip1" => "Claudespeed: Clip 1",
-    "clip1-p1" => "Dieser Clip dient nur zu Testzwecken. <br>
-                Der Text den du hier liest wird einmal die Beschreibung sein.",
-    "clip2" => "Claudespeed: Clip 2",
-    "clip2-p1" => "Dieser Clip dient nur zu Testzwecken. <br>
-                Der Text den du hier liest wird einmal die Beschreibung sein.",
-    "impressum" => "Claudespeed: Impressum",
-    "impressum-title" => "Impressum",
-    "impressum-content" => "<h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-    <p>Markus Heß<br>
-        An der Wuhlheide 148<br>
-        12459 Berlin</p>
-
-    <h2>Kontakt</h2>
-    <p>Telefon: +49 (0) 176 21 40 88 50<br>
-        E-Mail: shurizma@shurizma.de</p>",
     "datenschutz-title" => "Claudespeed: Datenschutz",
     "datenschutz" => '<h1>Datenschutzerkl&auml;rung</h1>
     <h2>1. Datenschutz auf einen Blick</h2>
@@ -112,10 +83,14 @@ $lang = array(
     <p>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erf&uuml;llung eines Vertrags zusammenh&auml;ngt oder zur Durchf&uuml;hrung vorvertraglicher Ma&szlig;nahmen erforderlich ist. In allen &uuml;brigen F&auml;llen beruht die Verarbeitung auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und / oder auf unseren berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), da wir ein berechtigtes Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen haben.</p>
     <p>Die von Ihnen an uns per Kontaktanfragen &uuml;bersandten Daten verbleiben bei uns, bis Sie uns zur L&ouml;schung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck f&uuml;r die Datenspeicherung entf&auml;llt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.</p>
     <h2>4. Plugins und Tools</h2>
+    <h3>Font Awesome</h3>
+    <p>Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Fonticons, Inc. bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.</p>
+    <p>Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Fonticons, Inc. aufnehmen. Hierdurch erlangt Fonticons, Inc. Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.</p>
+    <p>Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
+    <p>Weitere Informationen zu Font Awesome finden Sie unter <a href="https://fontawesome.com/help" target="_blank" rel="noopener">https://fontawesome.com/help</a> und in der Datenschutzerklärung von Fonticons, Inc.: <a href="https://fontawesome.com/privacy" target="_blank" rel="noopener">https://fontawesome.com/privacy</a>.</p>
     <h3>Google Web Fonts</h3>
     <p>Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite l&auml;dt Ihr Browser die ben&ouml;tigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.</p>
     <p>Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis dar&uuml;ber, dass &uuml;ber Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Google Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.</p>
     <p>Wenn Ihr Browser Web Fonts nicht unterst&uuml;tzt, wird eine Standardschrift von Ihrem Computer genutzt.</p>
     <p>Weitere Informationen zu Google Web Fonts finden Sie unter<a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> und in der Datenschutzerkl&auml;rung von Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a>.</p>'
 );
-?>

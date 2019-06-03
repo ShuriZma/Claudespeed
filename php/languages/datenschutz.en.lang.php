@@ -1,35 +1,6 @@
 <?php
 
 $lang = array(
-    "claudespeed" => "Claudespeed",
-    "footer-link1" => "Privacy statement",
-    "footer-link2" => "Legal notice",
-    "footer-copyright" => "&copy;2018-" . date("Y") . "Copyright ShuriZma, All Rights Reserved.",
-    "footer-discord" => "Join our Discord",
-    "header" => "Official Homepage",
-    "navbar-home" => "Home",
-    "navbar-clips" => "Clips",
-    "home" => "Claudespeed: Home",
-    "home-title" => "Home",
-    "clips" => "ClaudeSpeed: Clips",
-    "clips-title" => "Clips",
-    "clips-nojs" => "To view this video please enable JavaScript, and consider upgrading to a web browser that <a href=\"http://videojs.com/html5-video-support/\" target=\"_blank\">supports HTML5 video</a>",
-    "clip1" => "Claudespeed: Clip 1",
-    "clip1-p1" => "This clip is for testing purposes only. <br>
-                            The text you read here will be the description once.",
-    "clip2" => "Claudespeed: Clip 2",
-    "clip2-p1" => "This clip is for testing purposes only. <br>
-                            The text you read here will be the description once.",
-    "impressum" => "Claudespeed: Legal Notice",
-    "impressum-title" => "Legal notice",
-    "impressum-content" => "<h2>Information according to &sect; 5 TMG</h2>
-    <p>Markus Heß<br>
-        An der Wuhlheide 148<br>
-        12459 Berlin</p>
-
-    <h2>Contact</h2>
-    <p>Telephone: +49 (0) 176 21 40 88 50<br>
-        E-Mail: shurizma@shurizma.de</p>",
     "datenschutz-title" => "Claudespeed: Privacy Statement",
     "datenschutz" => '<h1>Data protection declaration </h1>
     <h2>1. data protection at a glance</h2>
@@ -104,10 +75,14 @@ $lang = array(
     <h3>Contact form</h3>
     <p>If you send us enquiries via the contact form, your details from the enquiry form including the contact data you entered there will be stored by us for the purpose of processing the enquiry and in the event of follow-up questions. These data will not be disclosed without your consent.</p>
     <h2>4. plugins and tools</h2>
+    <h3>Font Awesome</h3>
+    <p>This site uses web fonts provided by Fonticons, Inc. for the uniform display of fonts. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly.</p>
+    <p>For this purpose, the browser you are using must connect to the Fonticons, Inc. servers. By doing so, Fonticons, Inc. becomes aware that your IP address has been used to access our website. The use of web fonts is in the interest of a uniform and appealing presentation of our online services. This constitutes a legitimate interest within the meaning of Art. 6 Para. 1 lit. f DSGVO.</p>
+    <p>If your browser does not support Web Fonts, a default font will be used by your computer.</p>
+    <p>For more information about Font Awesome, see <a href="https://fontawesome.com/help" target="_blank" rel="noopener">https://fontawesome.com/help</a> and Fonticons, Inc.\'s privacy policy: <a href="https://fontawesome.com/privacy" target="_blank" rel="noopener">https://fontawesome.com/privacy</a>.</p>
     <h3>Google Web Fonts</h3>
     <p>This page uses so-called web fonts provided by Google for the uniform display of fonts. When you open a page, your browser will cache the required web fonts in your browser to display text and fonts correctly.</p>
     <p>For this purpose, the browser you use must establish a connection to the Google servers. This will enable Google to know that your IP address has been used to access our website. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online services. This constitutes a legitimate interest within the meaning of Art. 6 Para. 1 lit. f DSGVO.</p>
     <p>If your browser does not support Web Fonts, a default font will be used by your computer.</p>
     <p>Further information on Google Web Fonts can be found at <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> and in Google\'s privacy policy: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a>.</p>'
 );
-?>
